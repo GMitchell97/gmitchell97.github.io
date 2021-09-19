@@ -1,0 +1,18 @@
+body{
+    background-position:center;
+    background-image:url(Images/background.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main-strip{
+    margin: 20%;
+    display: flex;
+    background: oldlace;
+
+}
+
+.column{
+    flex: 50%;
+}
