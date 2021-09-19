@@ -1,18 +1,32 @@
+header{
+    padding: 1%;
+    border-top: 4px solid;
+    border-bottom: 4px solid;
+}
+
 body{
     background-position:center;
     background-image:url(Images/background.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 10%;
 }
 
 #main-strip{
-    margin: 20%;
-    display: flex;
-    background: oldlace;
+    background: rgb(230, 236, 253);
+}
 
+.row{
+    display: flex;
 }
 
 .column{
-    flex: 50%;
+    flex: 100%;
+    align-content: center;
+    padding: 20px;
+}
+
+.image{
+    width: 100%;
 }
